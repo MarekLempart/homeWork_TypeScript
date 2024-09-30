@@ -5,10 +5,22 @@
   "type": "module",
   "homepage": "https://MarekLempart.github.io/homeWork_TypeScript/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarekLempart/homeWork_TypeScript.git"
+  },
+  "keywords": [],
+  "author": "MarekLempart <kama.zakupy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarekLempart/homeWork_TypeScript/issues"
   },
   "dependencies": {
     "react": "^18.3.1",
